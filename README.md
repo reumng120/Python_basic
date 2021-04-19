@@ -6,4 +6,4 @@
 
 
 ## Advance Usage
-- [Using Lists]
+- [Using Lists](https://github.com/reumng120/Python_basic/tree/main/list_advance)
