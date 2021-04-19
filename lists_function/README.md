@@ -26,4 +26,17 @@
 ['jack', 'guido', 'irv', 'book', 'mon', 'thu']
 >>>
 ```
+- list.insert(i, x): Insert an item ad a given index.
+```
+>>> mylist
+['jack', 'guido', 'irv', 'book', 'mon', 'thu']
+>>> 
+>>> mylist.insert(1, "wed")
+>>> mylist
+['jack', 'wed', 'guido', 'irv', 'book', 'mon', 'thu']
+>>> mylist.insert(3, "Sun")
+>>> mylist
+['jack', 'wed', 'guido', 'Sun', 'irv', 'book', 'mon', 'thu']
+>>> 
+```
 - 
