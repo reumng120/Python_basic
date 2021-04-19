@@ -32,3 +32,7 @@ The set is an unordered collection with no duplicate elements. It also support t
 >>> non_duplicate
 {'book', 'Jon', 'cycle', 'apple'}
 ```
+Mathematical oprations
+```
+```
+
