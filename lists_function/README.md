@@ -59,5 +59,16 @@
 4
 >>> 
 ```
-- 
+- list.count(x): Return the number of times x appears in the list.
+```
+>>> mylist
+['jack', 'guido', 'irv', 'book', 'mon', 'thu', 'book', 'book', 'mon']
+>>> mylist.count("irv")
+1
+>>> mylist.count("book")
+3
+>>> mylist.count("mon")
+2
+>>> 
+```
 - 
