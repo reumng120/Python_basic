@@ -71,4 +71,17 @@
 2
 >>> 
 ```
+- list.pop(i): Remove the item from given the index. If no index is specified, list.pop() removes the last item in the list.
+```
+>>> mylist
+['jack', 'guido', 'irv', 'book', 'mon', 'thu', 'abc']
+>>> mylist.pop()
+'abc'
+>>> mylist.pop(3)
+'book'
+>>> mylist
+['jack', 'guido', 'irv', 'mon', 'thu']
+>>> 
+```
+- 
 - 
