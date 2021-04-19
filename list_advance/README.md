@@ -22,6 +22,25 @@ and
 >>> mylist
 [0, 2, 8, 18, 32]
 ```
+Two dimensional list
+```
+>>> two_dimensional = []
+>>> for a in [1,2,3]:
+...     for b in [3,4,2]:
+...         if a == b:
+...             two_dimensional.append([a, b])
+... 
+>>> two_dimensional
+[[2, 2], [3, 3]]
+```
+
+The two_dimetional is equal to below,
+```
+>>> [[a,b] for a in [1,2,3] for b in [3,4,2] if a == b]
+[[2, 2], [3, 3]]
+```
+
+
 ## Set()
 The set is an unordered collection with no duplicate elements. It also support the mathematical oprations like, union, intersection, difference, and symmetric difference.
 
