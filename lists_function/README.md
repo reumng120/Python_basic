@@ -3,7 +3,7 @@
 ## Architecture
 ![alt text](https://github.com/reumng120/Python_basic/blob/main/lists_function/lists_function.png?raw=true)
 
-## Functions
+## Basic Functions
 - list.append(x): Add an item to the end of the list.
 ```
 >>> mylist = ['jack', 'guido', 'irv']
@@ -122,4 +122,12 @@
 >>> a
 ['Std', 'increse', 'programming'] 
 ```
-- 
+- list.clear(): Remove all items from the list.
+```
+>>> mylist
+['Std', 'apple', 'increse', 'programming']
+>>> mylist.clear()
+>>> mylist
+[]
+```
+
