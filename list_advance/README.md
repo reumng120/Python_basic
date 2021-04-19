@@ -34,5 +34,31 @@ The set is an unordered collection with no duplicate elements. It also support t
 ```
 Mathematical oprations
 ```
+>> a = set("abcd")
+>>> b = set("cdef")
+>>> a
+{'c', 'b', 'd', 'a'}
+>>> b
+{'e', 'c', 'd', 'f'}
+```
+letter in a but not in b
+```
+>>> a - b
+{'b', 'a'}
+```
+letter in a or b or both
+```
+>>> a | b
+{'e', 'd', 'f', 'a', 'c', 'b'}
+```
+letter in both a and b
+```
+>>> a & b
+{'c', 'd'}
+```
+letter in a or b but not both
+```
+>>> a ^ b
+{'e', 'f', 'a', 'b'}
 ```
 
