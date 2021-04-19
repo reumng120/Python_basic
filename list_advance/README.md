@@ -23,3 +23,12 @@ and
 [0, 2, 8, 18, 32]
 ```
 ## Set()
+The set is an unordered collection with no duplicate elements. It also support the mathematical oprations like, union, intersection, difference, and symmetric difference.
+
+```
+(With no duplicate element)
+>>> mylist = ["book", "apple", "Jon", "apple", "cycle"]
+>>> non_duplicate = set(mylist)
+>>> non_duplicate
+{'book', 'Jon', 'cycle', 'apple'}
+```
