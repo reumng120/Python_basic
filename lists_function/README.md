@@ -39,4 +39,25 @@
 ['jack', 'wed', 'guido', 'Sun', 'irv', 'book', 'mon', 'thu']
 >>> 
 ```
+- list.remove(x): Remove the item from given the value.
+```
+>>> mylist
+['jack', 'wed', 'guido', 'Sun', 'irv', 'book', 'mon', 'thu']
+>>> mylist.remove("Sun")
+>>> mylist.remove("wed")
+>>> mylist
+['jack', 'guido', 'irv', 'book', 'mon', 'thu']
+>>> 
+```
+- list.index(x): Return position of an item in the list by the zero-base index.
+```
+>>> mylist
+['jack', 'guido', 'irv', 'book', 'mon', 'thu']
+>>> mylist.index("irv")
+2
+>>> mylist.index("mon")
+4
+>>> 
+```
+- 
 - 
