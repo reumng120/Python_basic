@@ -83,5 +83,29 @@
 ['jack', 'guido', 'irv', 'mon', 'thu']
 >>> 
 ```
-- 
+- list.sort(*, key=None, reverse=False): Sort the items of the list.
+```
+(sort 1)
+>>> mylist
+['book', 'dance', 'apple', 'cook']
+>>> mylist.sort()
+>>> mylist
+['apple', 'book', 'cook', 'dance']
+>>> 
+>>> mylist.sort(reverse=True)
+>>> mylist
+['dance', 'cook', 'book', 'apple']
+>>> 
+```
+```
+(sort 2: Using function)
+>>> def cusFunc(e):
+...     return len(e)
+... 
+>>> mylist = ["increse", "programming", "apple", "Std"]
+>>> mylist.sort(key=cusFunc, reverse=True)
+>>> mylist
+['programming', 'increse', 'apple', 'Std']
+>>> 
+```
 - 
