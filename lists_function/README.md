@@ -108,4 +108,18 @@
 ['programming', 'increse', 'apple', 'Std']
 >>> 
 ```
+- list.copy(): Return a shallow copy of the list. Equivalent to mylist[:].
+```
+>>> mylist
+['Std', 'apple', 'increse', 'programming']
+>>> a = mylist.copy()
+>>> a
+['Std', 'apple', 'increse', 'programming']
+>>> a.pop(1)
+'apple'
+>>> mylist
+['Std', 'apple', 'increse', 'programming']
+>>> a
+['Std', 'increse', 'programming'] 
+```
 - 
